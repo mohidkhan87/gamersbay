@@ -1,0 +1,60 @@
+/*----------Login----------*/
+
+#login{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(41, 66, 59);
+}
+#login .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 96px;
+    margin-top: 64px;
+    background-color: rgb(72, 135, 124);
+    height: 100px;   
+}
+#login .navbar .list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+}
+#login .box{
+    border: 4px solid rgb(10, 85, 75);
+    width: 550px;
+    height: 450px;
+    margin:auto;
+    background-color:rgb(72, 135, 124) ;
+}
+#login .box .header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#login .box .loginfo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;  
+}
+#login .box .login{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#login .box .header .fas {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    color: blueviolet;   
+}
+#login .box .pw{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
